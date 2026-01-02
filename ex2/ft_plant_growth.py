@@ -3,6 +3,7 @@ class Plant:
         self.name = name
         self.height = height
         self.agee = agee
+
     def grow(self):
         self.height += 6
 
@@ -17,6 +18,7 @@ class Plant:
         print("=== Day 7 ===")
         print(f"{self.name}: {self.height}cm, {self.agee} days old")
         print("Growth this week: +6cm")
+
 
 plant1 = Plant("Rose", 25, 30)
 

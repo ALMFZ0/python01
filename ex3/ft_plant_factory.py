@@ -3,10 +3,10 @@ class Plant:
         self.name = name
         self.height = height
         self.agee = agee
+
     def create(self):
         print(f"Created: {self.name} ({self.height}cm, {self.agee} days)")
-        
-    
+
 
 list = [
     ["Rose", 25, 30],
@@ -14,7 +14,7 @@ list = [
     ["Cactus", 5, 90],
     ["Sunflower", 80, 45],
     ["Fern", 15, 120],
-        ]
+]
 print("=== Plant Factory Output ===")
 
 for i in list:
@@ -23,4 +23,3 @@ for i in list:
 
 
 print("Total plants created: 5")
-
